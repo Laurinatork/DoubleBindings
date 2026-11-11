@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "doublebindings",
+  "version": "${version}",
+  "name": "DoubleBindings",
+  "description": "Add alternative keys to existing Minecraft key bindings.",
+  "authors": [
+    "DoubleBindings"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.doublebindings.DoubleBindingsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "doublebindings.mixins.json"
+  ]
+}
