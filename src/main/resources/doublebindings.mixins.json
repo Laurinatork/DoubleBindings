@@ -1,7 +1,13 @@
+
 {
   "required": true,
   "package": "com.doublebindings.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": ["KeyBindingAccessor"],
-  "injectors": { "defaultRequire": 1 }
+  "client": [
+    "KeyBindingAccessor",
+    "OptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
